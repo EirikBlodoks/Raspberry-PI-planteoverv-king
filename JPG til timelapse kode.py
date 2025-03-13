@@ -6,8 +6,8 @@ import glob
 image_folder = "/home/eirik/Desktop/Planteprosjekt/regular_pics/sessionx"
 output_video = "/home/eirik/Desktop/Planteprosjekt/timelapse.mp4"
 
-#sorter etter navn
-images = sorted(glob.glob(os.path.join(image_folder, "*.jpg")))
+#sorter etter alder
+images = sorted(glob.glob(os.path.join(image_folder, "*.jpg")), key=os.path.getmtime)
 
 #Sjekker etter filer i mappen
 if not images:
