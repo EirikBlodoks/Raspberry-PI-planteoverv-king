@@ -1,6 +1,6 @@
 # Raspberry-PI-planteoverv-king
 
-Denne mappen inneholder de tre viktigste kodesnippetsene for å holde planteovervåkeren min gående, i tillegg til kopier av de to txt filene jeg bruker til å lagre info.  
+Denne mappen inneholder de tre viktigste kodesnippetsene for å holde planteovervåkeren min gående, i tillegg til kopi av  txt filen jeg bruker til å lagre info.  
 
 Dersom det skal brukes må det lastes inn på en raspberry pi 5 med en camera module 2 installert. (Det er mulig å bruke koden på andre utgaver med minimale endringer.)
 
