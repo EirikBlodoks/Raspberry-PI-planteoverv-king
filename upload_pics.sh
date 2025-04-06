@@ -11,7 +11,7 @@ LATEST_FILE=$(ls -t "$LOCAL_FOLDER"/*.jpg | head -n 1)
 if [ -n "$LATEST_FILE" ]; then
     # Upload the latest PNG file to Google Drive
     rclone copy "$LATEST_FILE" "$REMOTE_FOLDER"
-    echo "✅ Uploaded: $LATEST_FILE to Google Drive!"
+    echo "Uploaded: $LATEST_FILE to Google Drive!"
 else
-    echo "⚠️ No PNG files found in $LOCAL_FOLDER!"
+    echo "⚠No PNG files found in $LOCAL_FOLDER!"
 fi
